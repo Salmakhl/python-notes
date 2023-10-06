@@ -1,0 +1,38 @@
+Algorithme Notes
+variable
+     a,b,c,d:réel
+debut
+ ecire("enter the first note: ")
+ lire(a)
+ tantque a<0 ou a>20 
+     ecire(""please re-enter the note: ")
+ ecrire("enter the seconde note: ")
+ lire(b)
+ tantque b<0 ou b>20 
+     ecire(""please re-enter the note: ")
+ ecrire("enter the third note: ")
+ lire(c)
+ tantque c<0 ou c>20 
+     ecire(""please re-enter the note: ")
+ d<--(a+b+c)/3
+ si d>=16 alors 
+    ecrire("your note:",d,"very good")
+sinon
+  si d>=14 et d<16 alors 
+     ecrire("your note:",d,"good")
+      sinon
+       si d>=12 et d<14 alors 
+          ecrire("your note:",d,"quite-good")
+          sinon
+           si d>=10 et d<12 alors 
+              ecrire("your note:",d,"passable")
+            sinon
+              ecrire("your note:",d,"insufficient")
+            finsi
+        finsi
+   finsi
+fin
+
+
+
+ 
